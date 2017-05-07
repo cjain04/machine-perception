@@ -13,8 +13,8 @@ import glob
 
 
 #get training path and store category names
-train_path=os.path.abspath("/home/chetna/Desktop/statePrediction/dataset_project/train")
-#train_path=os.path.abspath("/home/chetna/Desktop/peImages/dataset/train")
+train_path=os.path.abspath("<dataset path>")
+
 training_names=os.listdir(train_path)
 print (training_names)
 
@@ -75,8 +75,7 @@ train_feat=color_features
 train_labels=labels	 	
 
 #Testing set
-test_path=os.path.abspath("/home/chetna/Desktop/statePrediction/dataset_project/test")
-#test_path=os.path.abspath("/home/chetna/Desktop/Masters-sememster2/machine perception/pe/dataset_ashima/My uniform dataset/India/testing")
+test_path=os.path.abspath("<dataset path>")
 testing_names=os.listdir(test_path)
 print (testing_names)
 
